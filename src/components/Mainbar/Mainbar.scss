@@ -1,0 +1,139 @@
+.bia__content {
+    width: 70%;
+    height: 400px;
+
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 680px) {
+        width: 100%;
+    }
+}
+
+.bia__headtext {
+    color: #2F3740;
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+// content
+
+.bia__content-menu {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+
+    @media screen and (max-width: 1500px) {
+        overflow-x: scroll;
+    }
+}
+
+.bia__content-menu-wrap {
+    min-width: 130px;
+    margin: 14px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px #AFB3C84D;
+    border-radius: 25px;
+    opacity: 1;
+    text-decoration: none;
+
+    p {
+        color: #2F3740;
+        &:hover {
+            color: #788390;
+        }
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+
+    @media screen and (max-width: 992px) {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: 680px) {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+.bia__container {
+    margin-top: 10px;
+}
+
+.bia__row-box {
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    img {
+        width: 200px;
+        height: 150px;
+        object-fit: contain;
+
+        @media screen and (max-width: 992px) {
+            width: 160px;
+            height: 110px;
+        }
+
+        @media screen and (max-width: 680px) {
+            width: 140px;
+            height: 90px;
+        }
+    }
+
+    h1 {
+        color: rgb(54, 141, 54);
+        background-color: rgb(218, 245, 218);
+        border-radius: 10px;
+        font-size: 14px;
+        width: fit-content;
+        padding: 5px;
+    }
+
+    p {
+        font-size: 12px;
+        color: #6A7685;
+    }
+
+    .bia__row-box-price {
+        font-size: 14px;
+    }
+
+    button {
+        background-color: #F58A8A;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        width: 150px;
+        border: none;
+        font-size: 16px;
+
+        @media screen and (max-width: 680px) {
+            font-size: 14px;
+            width: 120px;
+        }
+
+        @media screen and (max-width: 400px) {
+            font-size: 12px;
+            width: 100px;
+        }
+    }
+}
